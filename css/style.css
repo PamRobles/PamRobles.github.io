@@ -95,6 +95,9 @@ h1{
 	margin-top: 40vh
 }
 
+iframe{
+	max-width: 95vw;
+}
 
 /*
 header {
