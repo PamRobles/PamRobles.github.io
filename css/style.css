@@ -11,6 +11,10 @@ header{
   	height: 100vh;
 }
 
+header img {
+width:100%;
+}
+
 footer { 
     display: block;
 }
@@ -31,9 +35,9 @@ h5{
 }
 
 .slides{
-  border-image: 10px;
+  border-radius: 10px;
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
 }
 
 
@@ -129,7 +133,7 @@ iframe{
     background-image: url("../img/lab.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 100vh; 
     
 
     /* Create the parallax scrolling effect */
