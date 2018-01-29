@@ -54,8 +54,8 @@ h5{
 
 .slides{
   border-radius: 10px;
-  width: 25vw;
-  height: 30vh;
+  width: 100vw;
+  height: 50vh;
   display: inline-flex;
   margin-left: auto;
   margin-right: auto;
