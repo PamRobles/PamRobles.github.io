@@ -185,7 +185,7 @@ iframe{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
