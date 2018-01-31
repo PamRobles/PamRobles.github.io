@@ -178,15 +178,23 @@ iframe{
     background-image: url("../img/lab.jpg");
 
     /* Set a specific height */
-    min-height: 100vh; 
+    height: 100%; 
     
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: cover;
 }
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
 
 /*hover images for reasearch 
 .container {
