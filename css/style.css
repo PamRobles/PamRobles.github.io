@@ -1,18 +1,21 @@
 body{
-  background-color: white;
+  background-image: url('../img/bghome.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
 
-  
 }
 
 
 header{
-	background: url('../img/indexbg.jpg') no-repeat center center fixed;
+	background: url('../img/slide1.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
   	height: 100vh;
+
 }
 
 header img {
@@ -186,6 +189,7 @@ h5{
 .my-font1{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+  color: black;
 }
 
 .my-font2{
