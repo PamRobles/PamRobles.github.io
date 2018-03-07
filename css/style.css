@@ -1,11 +1,10 @@
 body{
-  background-image: url("../img/bghome.png")
-  
+  background-color: white;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
+
   
 }
+
 
 header{
 	background: url('../img/indexbg.jpg') no-repeat center center fixed;
@@ -45,11 +44,21 @@ h5{
 
 .peoplepics{
   border-radius: 25px;
-  width: 10vw;
+  max-width: 100%;
   height: 30vh;
+  
   display: block;
   margin: auto;
 
+}
+
+
+.roundedbio{
+    border-radius: 15px 50px 30px;
+    background: #063B82;
+    padding: 20px; 
+    width: 100%;
+    height: 50%; 
 }
 
 .slides{
@@ -61,8 +70,6 @@ h5{
   margin-right: auto;
 
 }
-
-
 
 .transparentbg{
   
@@ -81,9 +88,16 @@ h5{
 }
 
 .nbstl{
-	background-color: transparent;
+	background-color: white;
+  opacity: 0.7;
   
   border-bottom-right-radius: 25px;
+}
+
+.phdpics{
+  background-color: white;
+  opacity: 0.9;
+  
 }
 
 .margin-top{
@@ -93,6 +107,64 @@ h5{
 .headscolor{
   color: #FF9773;
 }
+
+/*text in BIO */
+
+.textbio{
+  font-family: font-family: 'Karma', serif;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  line-height: 2.0;
+}
+
+.headsbio{
+  font-family: font-family: 'Karma', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+  line-height: 1.0;
+}
+
+.centerthis{
+  text-align: center;
+}
+
+.bluetext{
+  color: #063B82;
+}
+
+
+/*parallax for bio OPTIONAL
+.parallaxbio {
+    /* The image used */
+    /*
+    background-image: url("../img/parallaxbox1.jpg");
+
+    /* Set a specific height */
+    /*
+    height: 100vh; 
+    width: 90%;
+
+    /* Create the parallax scrolling effect */
+    /*
+    background-attachment: fixed;
+    background-position: contain;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+/*
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+        background-size: 100% 100%;
+    }
+}
+*/
+
 
 .my-text-color{
 	color: #86B235;
@@ -117,15 +189,16 @@ h5{
 }
 
 .my-font2{
-	font-family: 'Unica One', cursive;
+	color: #FF9773;
+  font-family: 'Unica One', cursive;
 }
 
 .icon-cog {
-  color: #FF7D4B;
+  color: #063B82;
 }
 
-.fa-flag:hover {
-    color: red;
+a:hover {
+  color: pink;
 }
 
 .doublebottomborder{
@@ -225,6 +298,37 @@ iframe{
 .hcontainer:hover .overlay {
   opacity: 1;
 }
+
+
+/* p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover p {
+    display: block;
+}
+
+I tried this to make it responsive but it didn't work 
+
+@media only screen and (max-device-width: 1024px) {
+    .hcontainer:hover {
+        display: block;
+    }*/ 
+
+
+@media only screen and (max-device-width: 1024px) {
+a {
+    display: inline-block;
+    padding: 5px 15px;
+}
+a.taphover:hover, a.taphover.hover {
+    background: red;
+    color: white;
+}
+}
+
 
 .text {
   color: white;
