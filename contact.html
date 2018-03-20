@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Simon Gaisford's Research Group</title>
+  <title>SG Group Publications</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,6 +11,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,800" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -36,33 +37,35 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#news">NEWS</a></li>
+        <li><a href="home.html">ABOUT</a></li>
+        <li><a href="home.html#news">NEWS</a></li>
         <li><a href="research.html">RESEARCH</a></li>
         <li><a href="people.html">PEOPLE</a></li>
         <li><a href="publications.html">PUBLICATIONS</a></li>
-        <li><a href="contact.hmtl">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Simon Gaisford's Research group</h1> 
- 
+  <h1>Simon Gaisford's Research Group</h1> 
+  <p>Contact</p>
 </div>
 
 
 
 
+
+
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<div id="contact" class="container-fluid">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p>If you have any queries or just wish to have a chat with us, sen us an e-mail and we'll get back at you</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> London, UK</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +44 ********** </p>
       <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
     </div>
     <div class="col-sm-7 slideanim">
@@ -85,26 +88,17 @@
 </div>
 
 <!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
-<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<div class="container-fluid slideanim bg-grey" align="center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9929.394444046025!2d-0.1224633!3d51.5251655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35610e262035a71f!2sThe+School+of+Pharmacy+University+of+London!5e0!3m2!1ses!2suk!4v1521044119965" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
-
-
+</div>
 
 <footer>
-  <div class="container-fluid"> 
+  <div class="container-fluid" align="center"> 
   <a href="#myPage" title="To Top">
     <span class="fa fa-arrow-circle-o-up fa-1x" style="font-size:36px" align="center"></span>
   </a>
